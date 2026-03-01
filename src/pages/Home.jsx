@@ -2,6 +2,7 @@
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import VideoBg from '../components/VideoBg'
+import Skills from '../components/Skills'
 
 function Home({ setIsChecked, isChecked }) {
     return (
@@ -18,7 +19,7 @@ function Home({ setIsChecked, isChecked }) {
                 </section>
 
                 <section id="skills" className="min-h-screen flex items-center justify-center bg-base-200">
-                    <h1 className="text-4xl font-bold">Skills</h1>
+                    <Skills/>
                 </section>
 
                 <section id="projects" className="min-h-screen flex items-center justify-center">
