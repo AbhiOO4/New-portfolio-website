@@ -34,9 +34,9 @@ export default function Navbar({ setIsChecked, isChecked }) {
   return (
     <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full px-3 sm:px-0 flex justify-center">
       
-      <div className="
+     <div className="
         navbar
-        bg-base-100/70
+        bg-base-100/50
         backdrop-blur-md
         shadow-lg
         rounded-full
