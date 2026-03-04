@@ -1,14 +1,13 @@
 import React from 'react'
-import ModusScreenshot from '../assets/Modus.png'
 import TechStackBadges from './TechStackBadges'
 
-function ProjectCard({title, description, techStack, liveLink, gitLink}) {
+function ProjectCard({title, description, techStack, liveLink, gitLink, screenShot}) {
     return (
         <div class="card bg-base-300 w-96 shadow-sm">
             <figure>
                 <img
-                    src={ModusScreenshot}
-                    alt="Shoes" />
+                    src={screenShot}
+                    alt="screenshot" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title mb-3">{title}</h2>

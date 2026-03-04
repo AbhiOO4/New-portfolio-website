@@ -4,6 +4,9 @@ import HeroSection from '../components/HeroSection'
 import VideoBg from '../components/VideoBg'
 import Skills from '../components/Skills'
 import ProjectCard from '../components/ProjectCard'
+import ModusScreenshot from '../assets/Modus.png'
+import Mindflow from '../assets/Mindflow.png'
+import Yelpcamp from '../assets/Yelpcamp.png'
 
 function Home({ setIsChecked, isChecked }) {
     return (
@@ -40,6 +43,7 @@ function Home({ setIsChecked, isChecked }) {
                             ]}
                             liveLink={"https://modus-demo.vercel.app"}
                             gitLink={"https://github.com/username/modus-project"}
+                            screenShot={ModusScreenshot}
                         />
                         <ProjectCard
                             title={"Modus - Task Manager"}
@@ -56,6 +60,7 @@ function Home({ setIsChecked, isChecked }) {
                             ]}
                             liveLink={"https://modus-demo.vercel.app"}
                             gitLink={"https://github.com/username/modus-project"}
+                            screenShot={Mindflow}
                         />
                         <ProjectCard
                             title={"Modus - Task Manager"}
@@ -72,6 +77,7 @@ function Home({ setIsChecked, isChecked }) {
                             ]}
                             liveLink={"https://modus-demo.vercel.app"}
                             gitLink={"https://github.com/username/modus-project"}
+                            screenShot={Yelpcamp}
                         />
                         
                     </div>
