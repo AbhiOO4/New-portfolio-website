@@ -7,8 +7,7 @@ const HeroSection = () => {
       <div className="p-20 border border-b-0 lg:border-r-0  bg-base-300/40 backdrop-blur-md">
         <h1 className="text-[clamp(1.5rem,4vw,3rem)] font-bold mb-2">Hi I am Abhinav </h1>
         <p className="text-[clamp(0.95rem,1.2vw,1.15rem)] leading-relaxed text-base-content/80">I am a Full stack web developer currently looking for a job.
-        <span className="hidden md:inline"> Eventhough i am a fresher, i have built cool fullstack projects check it out in the projects section.
-          And yes i like minimal designs with no clutter.</span>
+        <span className="md:inline"> Eventhough i am a fresher, i have built cool fullstack projects check it out in the projects section.</span>
         </p>
       </div>
       <div className="border bg-base-300/40 p-10 h-[400px] overflow-y-auto backdrop-blur-md">

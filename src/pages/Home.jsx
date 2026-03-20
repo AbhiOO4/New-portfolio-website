@@ -7,6 +7,7 @@ import ProjectCard from '../components/ProjectCard'
 import ModusScreenshot from '../assets/Modus.png'
 import Mindflow from '../assets/Mindflow.png'
 import Yelpcamp from '../assets/Yelpcamp.png'
+import Contact from '../components/Contact'
 
 function Home({ setIsChecked, isChecked }) {
     return (
@@ -31,7 +32,7 @@ function Home({ setIsChecked, isChecked }) {
                         <ProjectCard
                             title={"Modus - Task Manager"}
                             description={
-                                "A modern full-stack productivity web app that helps users manage tasks, track progress, and collaborate in real time with a clean and responsive UI."
+                                "A modern full-stack productivity web app that helps users manage tasks, track progress, and break down tasks to managable subtasks with the help of AI with a clean and responsive UI."
                             }
                             techStack={[
                                 "React",
@@ -39,16 +40,17 @@ function Home({ setIsChecked, isChecked }) {
                                 "Node.js",
                                 "Express",
                                 "MongoDB",
-                                "JWT Auth"
+                                "JWT Auth",
+                                "Daisy-ui"
                             ]}
-                            liveLink={"https://modus-demo.vercel.app"}
-                            gitLink={"https://github.com/username/modus-project"}
+                            liveLink={"https://modus.abhinavsreejith.online/"}
+                            gitLink={"https://github.com/AbhiOO4/Modus-task-manager-ai"}
                             screenShot={ModusScreenshot}
                         />
                         <ProjectCard
-                            title={"Modus - Task Manager"}
+                            title={"MindFlow - Online Note-taker"}
                             description={
-                                "A modern full-stack productivity web app that helps users manage tasks, track progress, and collaborate in real time with a clean and responsive UI."
+                                "An online note taking app to view you notes from anywhere, anytime using anydevice."
                             }
                             techStack={[
                                 "React",
@@ -58,25 +60,24 @@ function Home({ setIsChecked, isChecked }) {
                                 "MongoDB",
                                 "JWT Auth"
                             ]}
-                            liveLink={"https://modus-demo.vercel.app"}
-                            gitLink={"https://github.com/username/modus-project"}
+                            liveLink={"https://think-board-ogkh.onrender.com/"}
+                            gitLink={"https://github.com/AbhiOO4/Mind-Flow"}
                             screenShot={Mindflow}
                         />
                         <ProjectCard
-                            title={"Modus - Task Manager"}
+                            title={"Yelp-camp"}
                             description={
-                                "A modern full-stack productivity web app that helps users manage tasks, track progress, and collaborate in real time with a clean and responsive UI."
-                            }
+                                "A place where you can create, review and list campground around the world. A basic tutorial project i made when learning fundamentals of fullstack development which helped me stitch everything together in my mind."}
                             techStack={[
-                                "React",
-                                "Tailwind CSS",
+                                "EJS",
+                                "Bootstrap CSS",
                                 "Node.js",
                                 "Express",
                                 "MongoDB",
-                                "JWT Auth"
+                                "Maptiler"
                             ]}
-                            liveLink={"https://modus-demo.vercel.app"}
-                            gitLink={"https://github.com/username/modus-project"}
+                            liveLink={"https://yelp-camp-clone.onrender.com/"}
+                            gitLink={"https://github.com/AbhiOO4/Yelp-camp-clone"}
                             screenShot={Yelpcamp}
                         />
                         
@@ -84,7 +85,7 @@ function Home({ setIsChecked, isChecked }) {
                 </section>
 
                 <footer id="contact" className="min-h-screen flex items-center justify-center bg-base-200">
-                    <h1 className="text-4xl font-bold">Contact</h1>
+                    <Contact/>
                 </footer>
             </>
         </div>
