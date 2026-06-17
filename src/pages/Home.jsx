@@ -8,6 +8,7 @@ import ModusScreenshot from '../assets/Modus.png'
 import Mindflow from '../assets/Mindflow.png'
 import Yelpcamp from '../assets/Yelpcamp.png'
 import Contact from '../components/Contact'
+import Ams from "../assets/Ams.png"
 
 function Home({ setIsChecked, isChecked }) {
     return (
@@ -48,21 +49,23 @@ function Home({ setIsChecked, isChecked }) {
                             screenShot={ModusScreenshot}
                         />
                         <ProjectCard
-                            title={"MindFlow - Online Note-taker"}
+                            title={"Attendance Management & Payroll Automation App"}
                             description={
-                                "An online note taking app to view you notes from anywhere, anytime using anydevice."
+                                "It is a field-focused, mobile-responsive Progressive Web App (PWA) designed to streamline on-site workforce management and attendance tracking. Built on the MERN stack with TypeScript, it eliminates manual paperwork by allowing site supervisors to log real-time employee attendance and instantly register new workers directly from the field. Meanwhile, an administrative dashboard provides central management for multiple work sites, role-based access control, past record editing, and automated Excel report generation for seamless payroll and compliance processing."
                             }
                             techStack={[
                                 "React",
+                                "Typescript",
                                 "Tailwind CSS",
+                                "ShadCn",
                                 "Node.js",
                                 "Express",
                                 "MongoDB",
                                 "JWT Auth"
                             ]}
-                            liveLink={"https://think-board-ogkh.onrender.com/"}
-                            gitLink={"https://github.com/AbhiOO4/Mind-Flow"}
-                            screenShot={Mindflow}
+                            liveLink={"https://attendance-app-peaq.onrender.com/demo-login?token=superSecretDemoToken123"}
+                            gitLink={"https://github.com/AbhiOO4/Attendance-Management-System"}
+                            screenShot={Ams}
                         />
                         <ProjectCard
                             title={"Yelp-camp"}
